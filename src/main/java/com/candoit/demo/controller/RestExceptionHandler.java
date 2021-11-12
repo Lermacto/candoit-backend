@@ -1,9 +1,10 @@
-package com.candoit.demo.exception;
+package com.candoit.demo.controller;
 
 import javax.persistence.EntityNotFoundException;
 
 import com.candoit.demo.commons.TransactionEnum;
 import com.candoit.demo.commons.TransactionResult;
+import com.candoit.demo.exception.DBException;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
